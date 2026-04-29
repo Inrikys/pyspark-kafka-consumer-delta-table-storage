@@ -6,8 +6,6 @@ Pipeline de dados em tempo real simulando compras de jogos na PSN, utilizando **
 
 ## 🧱 Arquitetura
 
-![Arquitetura Geral](docs/assets/architecture.png)
-
 O sistema é composto por:
 
 - **Kafka** → ingestão de eventos em tempo real  
@@ -19,8 +17,6 @@ O sistema é composto por:
 ---
 
 ## 🔄 Fluxo de Dados
-
-![Fluxo de Dados](docs/assets/data-flow.png)
 
 1. Eventos de compra são gerados por um simulador da PSN  
 2. Eventos são publicados no Kafka  
